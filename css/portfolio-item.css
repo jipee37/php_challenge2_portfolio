@@ -19,10 +19,6 @@ h3, h4 {
     margin-bottom: 25px;
 }
 
-footer {
-    margin: 50px 0;
-    text-align: center;
-}
 
 #img-responsive {
     width: 70%;
@@ -64,10 +60,50 @@ footer {
 .navbar-nav > li > a {
     color: #c5e1a5!important;
 
-
 }
 
 .navbar-nav > li > a:hover {
     color: #212121 !important;
     background-color: #cfd8dc !important;
   }
+
+.inline-list {
+    float: left;
+    list-style: none;
+
+}
+
+.inline-list  li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.inline-list  li  a {
+    text-decoration: none;
+    color: #212121;
+    font-style: oblique;
+}
+
+
+.copyright {
+    float: left;
+    clear: both;
+    margin-left: 38px;
+    word-spacing: 0.2em;
+    color: #212121
+}
+
+footer {
+    height: 100px;
+    background: #607d8b;
+}
+
+.social-icons li{
+    float: right;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.social-icons li a{
+    color: #fff;
+}
