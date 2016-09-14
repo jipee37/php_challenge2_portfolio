@@ -1,12 +1,17 @@
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. */
+    box-sizing: border-box;
+    background-color:   #9ccc65;
+    font-family: 'Coda', cursive, sans-serif;
 }
 
-h1, h3 {
+
+h3, h4 {
     margin-top: 40px;
-    margin-bottom: 15px;  
-    color: #735d60;
+    margin-bottom: 15px;
+    font-style: oblique;
+    color: #fff;
 }
 
 
@@ -19,3 +24,50 @@ footer {
     text-align: center;
 }
 
+#img-responsive {
+    width: 70%;
+    height: auto;
+}
+
+.img-responsive {
+    width: 50%;
+    height: auto;
+}
+
+.navbar-nav {
+    float: right;
+    font-size: 1.3em;
+    font-style: oblique;
+}
+
+.navbar-brand {
+    font-size: 1.9em;
+    font-variant: small-caps;
+    font-weight: 900;
+    font-style: oblique;
+    color: #fff !important;
+    cursor: pointer;
+
+}
+
+.navbar-brand:hover {
+    color: #c5e1a5 !important;
+  }
+
+.navbar-default {
+    background-color: #455a64 ;
+    border-bottom: #455a64;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.navbar-nav > li > a {
+    color: #c5e1a5!important;
+
+
+}
+
+.navbar-nav > li > a:hover {
+    color: #212121 !important;
+    background-color: #cfd8dc !important;
+  }
