@@ -12,9 +12,12 @@ h3, h4 {
     margin-bottom: 15px;
     font-style: oblique;
     color: #fff;
+    cursor: pointer;
 }
 
-
+.page-header1 {
+        cursor: progress;
+}
 .portfolio-item {
     margin-bottom: 25px;
 }
@@ -37,7 +40,7 @@ h3, h4 {
 }
 
 .navbar-brand {
-    font-size: 1.9em;
+    font-size: 1.6em;
     font-variant: small-caps;
     font-weight: 900;
     font-style: oblique;
@@ -106,4 +109,8 @@ footer {
 
 .social-icons li a{
     color: #fff;
+}
+
+.social-icons li a:hover{
+    color: #c5e1a5;
 }

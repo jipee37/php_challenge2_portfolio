@@ -18,8 +18,12 @@
     <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
     <!-- Font-awesome -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <!--lightbox CSS  -->
+    <!--lightbox CSS -->
     <link href="css/lightbox.min.css" rel="stylesheet">
+    <!--animate CSS -->
+    <link href="css/animate.min.css" rel="stylesheet">
+    <!--Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -35,7 +39,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand  href="#">CODE ACADEMY<small>portfolio</small></a>
+                <a href="#" class="navbar-brand animated tada">CODE ACADEMY<small>{portfolio}</small></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -62,7 +66,7 @@
         <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h3 class="page-header">Projet en cours
+                <h3  id="trigg" class="page-header1 animated bounceInLeft">Projet en cours
                 </h3>
             </div>
         </div>
@@ -76,10 +80,11 @@
                 </a>
             </div>
 
-            <div class="col-md-4">
-                <h4>Description</h4>
+            <div class="col-md-4 animated bounceInRight">
+                <h4 class="test">Description</h4>
                 Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses. The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Bootstrap based project!
-                <h4>Details</h4>
+
+                <h4 class="test">Details</h4>
                 <ul>
                     <li>Fully responsive</li>
                     <li>Custom fixed navigation menu with scrolling animations</li>
@@ -95,16 +100,16 @@
         <div class="row">
 
             <div class="col-lg-12">
-                <h4 class="page-header">Projets en relation</h4>
+                <h4 class="page-header animated bounceInLeft">Projets en relation</h4>
             </div>
 
-            <div class="col-sm-6 ">
+            <div class="col-sm-6 animated bounceInLeft">
                 <a href="images/maquette-b.bmp" data-lightbox="maquette-set" data-title="Click the right half to move forward.">
                     <img class="img-responsive portfolio-item" src="images/maquette-b.bmp" alt="maquette">
                 </a>
             </div>
 
-            <div class="col-sm-6 ">
+            <div class="col-sm-6 animated bounceInRight">
                 <a href="images/maquette_default.png" data-lightbox="maquette-set" data-title="or press the right arrow on your keyboard.">
                     <img class="img-responsive portfolio-item" src="images/maquette2-b.png" alt="maquette">
                 </a>
@@ -161,13 +166,13 @@
         </footer>
 
 
-
-    <!-- jQuery -->
+    <!-- jQuery + lightbox-->
     <script src="js/lightbox-plus-jquery.min.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+    <!--jQuery -->
+    <script src="js/jquery-2.2.2.min.js"></script>
+    <script src="js/func.js"></script>
 </body>
 
 </html>
