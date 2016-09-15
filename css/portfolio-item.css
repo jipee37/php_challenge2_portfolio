@@ -107,3 +107,7 @@ footer {
 .social-icons li a{
     color: #fff;
 }
+
+.social-icons li a:hover{
+    color: #c5e1a5;
+}
