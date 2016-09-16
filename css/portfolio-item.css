@@ -5,6 +5,7 @@ body {
     font-family: 'Coda', cursive, sans-serif;
 }
 
+
 /*Styles for 'home' ========= */
 
 .Apropos {
@@ -46,7 +47,7 @@ body {
 
 .row-projet-simili {
     display: flex;
-    flex-direction: column;
+    flex-direction: ;
 }
 
 
@@ -79,7 +80,7 @@ h3, h4 {
 }
 
 .img-responsive {
-    width: 30%;
+    width: 40%;
 
 }
 
@@ -105,9 +106,9 @@ h3, h4 {
 
 .navbar-default {
     background-color: #455a64 ;
-    border-bottom: #455a64;
+    border-bottom:;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    height: ;
+    height: 50px;
 }
 
 
