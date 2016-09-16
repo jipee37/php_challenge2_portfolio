@@ -5,15 +5,55 @@ body {
     font-family: 'Coda', cursive, sans-serif;
 }
 
+/*Styles for 'nav section' ========= */
 
-/*Styles for 'home' ========= */
+.navbar-nav {   
+    font-size: 1.4em;
+    font-style: oblique;
+
+}
+
+.navbar-brand {
+    font-size: 1.6em;
+    font-variant: small-caps;
+    font-weight: 900;
+    font-style: oblique;
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.navbar-brand:hover {
+    color: #c5e1a5 !important;
+  }
+
+.navbar-default {
+    background-color: #b15315;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    height: 50px;
+}
+
+
+.navbar-nav > li > a {
+    color: #c5e1a5!important;
+
+}
+
+.navbar-nav > li > a:hover {
+    color: #212121 !important;
+    background-color: #cfd8dc !important;
+  }
+
+
+/*Styles for 'home section' ========= */
 
 .Apropos {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
 }
+
+#home {margin-top: -20px;}
 
 #home p {
     text-align: center;
@@ -81,46 +121,9 @@ h3, h4 {
 
 .img-responsive {
     width: 40%;
-
-}
-
-.navbar-nav {
-    float: right;
-    font-size: 1.3em;
-    font-style: oblique;
-}
-
-.navbar-brand {
-    font-size: 1.6em;
-    font-variant: small-caps;
-    font-weight: 900;
-    font-style: oblique;
-    color: #fff !important;
-    cursor: pointer;
-
-}
-
-.navbar-brand:hover {
-    color: #c5e1a5 !important;
-  }
-
-.navbar-default {
-    background-color: #455a64 ;
-    border-bottom:;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    height: 50px;
 }
 
 
-.navbar-nav > li > a {
-    color: #c5e1a5!important;
-
-}
-
-.navbar-nav > li > a:hover {
-    color: #212121 !important;
-    background-color: #cfd8dc !important;
-  }
 
 .inline-list {
     float: left;
