@@ -2,17 +2,39 @@
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. */
     box-sizing: border-box;
-    /*background-color:   #9ccc65;*/
     font-family: 'Coda', cursive, sans-serif;
 }
 
-.container { margin-top: 8px }
+/*Styles for 'home' ========= */
 
 .Apropos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#home p {
+    text-align: center;
+    margin-top: 0.9em;
+}
+
+#home ul {
+  padding-top: 1em;
+}
+
+
+#home ul li {
+    display: inline-block;
+    padding: 1em 1.5em;      
+}
+
+#home ul a {
+    color: #fff;
+}
+
+#home ul li a:hover {
+    color: #9ccc65;     
 }
 
 .row-projet {
@@ -85,7 +107,7 @@ h3, h4 {
     background-color: #455a64 ;
     border-bottom: #455a64;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    height: 7%;
+    height: ;
 }
 
 
